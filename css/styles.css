@@ -1,0 +1,209 @@
+/* No files to import found in 00-global/04-extends/**\/* */
+/* No files to import found in 01-assets/**\/* */
+/* line 1, ../scss/05-usage/_usage.scss */
+.colors {
+  /* color: #1c75bc; */
+  /* background-color: #1c75bc; */
+  /* color: #00a0df; */
+  /* background-color: #00a0df; */
+  /* color: #003479; */
+  /* background-color: #003479; */
+  /* color: #f30617; */
+  /* background-color: #f30617; */
+  /* color: #63323f; */
+  /* background-color: #63323f; */
+  /* color: #5a8739; */
+  /* background-color: #5a8739; */
+  /* color: #85bb3d; */
+  /* background-color: #85bb3d; */
+  /* color: #5c3183; */
+  /* background-color: #5c3183; */
+  /* color: #cb7113; */
+  /* background-color: #cb7113; */
+  /* color: #e1ad40; */
+  /* background-color: #e1ad40; */
+  /* color: #e7e62f; */
+  /* background-color: #e7e62f; */
+  /* color: #828282; */
+  /* background-color: #828282; */
+  /* color: #dbdbdb; */
+  /* background-color: #dbdbdb; */
+  /* color: #f2f2f2; */
+  /* background-color: #f2f2f2; */
+  /* color: #fafafa; */
+  /* background-color: #fafafa; */
+  /* color: #4e5054; */
+  /* background-color: #4e5054; */
+  /* color: #FFFFFF; */
+  /* background-color: #FFFFFF; */
+  /* color: rgba(255, 255, 255, 0); */
+  /* background-color: rgba(255, 255, 255, 0); */
+  /* color: rgba(255, 255, 255, 0.15); */
+  /* background-color: rgba(255, 255, 255, 0.15); */
+  /* color: #000000; */
+  /* background-color: #000000; */
+}
+
+/* line 5, ../scss/05-usage/_usage.scss */
+.borders {
+  /* border: 1px solid #1c75bc; */
+  /* border: 1px solid #00a0df; */
+  /* border: 1px solid #003479; */
+  /* border: 1px solid #f30617; */
+  /* border: 1px solid #63323f; */
+  /* border: 1px solid #5a8739; */
+  /* border: 1px solid #85bb3d; */
+  /* border: 1px solid #5c3183; */
+  /* border: 1px solid #cb7113; */
+  /* border: 1px solid #e1ad40; */
+  /* border: 1px solid #e7e62f; */
+  /* border: 1px solid #828282; */
+  /* border: 1px solid #dbdbdb; */
+  /* border: 1px solid #f2f2f2; */
+  /* border: 1px solid #fafafa; */
+  /* border: 1px solid #4e5054; */
+  /* border: 1px solid #FFFFFF; */
+  /* border: 1px solid rgba(255, 255, 255, 0); */
+  /* border: 1px solid rgba(255, 255, 255, 0.15); */
+  /* border: 1px solid #000000; */
+}
+
+/* line 9, ../scss/05-usage/_usage.scss */
+.fonts {
+  /* font-family: KarbonWeb, Verdana, Helvetica, sans-serif; */
+  /* font-family: georgia, serif; */
+}
+
+/* line 13, ../scss/05-usage/_usage.scss */
+.font-weights {
+  /* font-weight: 200; */
+  /* font-weight: 300; */
+  /* font-weight: 400; */
+  /* font-weight: 500; */
+  /* font-weight: 600; */
+  /* font-weight: 700; */
+  /* font-weight: 800; */
+}
+
+/* line 17, ../scss/05-usage/_usage.scss */
+.font-sizes {
+  /* font-size: 18px; */
+  /* ms: "ms(0)" */
+  /* font-size: 21.6px; */
+  /* ms: "ms(1)" */
+  /* font-size: 25.92px; */
+  /* ms: "ms(2)" */
+  /* font-size: 29.12461px; */
+  /* ms: "ms(3)" */
+  /* font-size: 31.104px; */
+  /* ms: "ms(4)" */
+  /* font-size: 37.3248px; */
+  /* ms: "ms(5)" */
+  /* font-size: 44.78976px; */
+  /* ms: "ms(6)" */
+  /* font-size: 47.12461px; */
+  /* ms: "ms(7)" */
+  /* font-size: 53.74771px; */
+  /* ms: "ms(8)" */
+  /* font-size: 64.49725px; */
+  /* ms: "ms(9)" */
+  /* font-size: 76.24923px; */
+  /* ms: "ms(10)" */
+}
+
+/* line 21, ../scss/05-usage/_usage.scss */
+.all {
+  /* color: #1c75bc; */
+  /* background-color: #1c75bc; */
+  /* color: #00a0df; */
+  /* background-color: #00a0df; */
+  /* color: #003479; */
+  /* background-color: #003479; */
+  /* color: #f30617; */
+  /* background-color: #f30617; */
+  /* color: #63323f; */
+  /* background-color: #63323f; */
+  /* color: #5a8739; */
+  /* background-color: #5a8739; */
+  /* color: #85bb3d; */
+  /* background-color: #85bb3d; */
+  /* color: #5c3183; */
+  /* background-color: #5c3183; */
+  /* color: #cb7113; */
+  /* background-color: #cb7113; */
+  /* color: #e1ad40; */
+  /* background-color: #e1ad40; */
+  /* color: #e7e62f; */
+  /* background-color: #e7e62f; */
+  /* color: #828282; */
+  /* background-color: #828282; */
+  /* color: #dbdbdb; */
+  /* background-color: #dbdbdb; */
+  /* color: #f2f2f2; */
+  /* background-color: #f2f2f2; */
+  /* color: #fafafa; */
+  /* background-color: #fafafa; */
+  /* color: #4e5054; */
+  /* background-color: #4e5054; */
+  /* color: #FFFFFF; */
+  /* background-color: #FFFFFF; */
+  /* color: rgba(255, 255, 255, 0); */
+  /* background-color: rgba(255, 255, 255, 0); */
+  /* color: rgba(255, 255, 255, 0.15); */
+  /* background-color: rgba(255, 255, 255, 0.15); */
+  /* color: #000000; */
+  /* background-color: #000000; */
+  /* border: 1px solid #1c75bc; */
+  /* border: 1px solid #00a0df; */
+  /* border: 1px solid #003479; */
+  /* border: 1px solid #f30617; */
+  /* border: 1px solid #63323f; */
+  /* border: 1px solid #5a8739; */
+  /* border: 1px solid #85bb3d; */
+  /* border: 1px solid #5c3183; */
+  /* border: 1px solid #cb7113; */
+  /* border: 1px solid #e1ad40; */
+  /* border: 1px solid #e7e62f; */
+  /* border: 1px solid #828282; */
+  /* border: 1px solid #dbdbdb; */
+  /* border: 1px solid #f2f2f2; */
+  /* border: 1px solid #fafafa; */
+  /* border: 1px solid #4e5054; */
+  /* border: 1px solid #FFFFFF; */
+  /* border: 1px solid rgba(255, 255, 255, 0); */
+  /* border: 1px solid rgba(255, 255, 255, 0.15); */
+  /* border: 1px solid #000000; */
+  /* font-family: KarbonWeb, Verdana, Helvetica, sans-serif; */
+  /* font-family: georgia, serif; */
+  /* font-weight: 200; */
+  /* font-weight: 300; */
+  /* font-weight: 400; */
+  /* font-weight: 500; */
+  /* font-weight: 600; */
+  /* font-weight: 700; */
+  /* font-weight: 800; */
+  /* font-size: 18px; */
+  /* ms: "ms(0)" */
+  /* font-size: 21.6px; */
+  /* ms: "ms(1)" */
+  /* font-size: 25.92px; */
+  /* ms: "ms(2)" */
+  /* font-size: 29.12461px; */
+  /* ms: "ms(3)" */
+  /* font-size: 31.104px; */
+  /* ms: "ms(4)" */
+  /* font-size: 37.3248px; */
+  /* ms: "ms(5)" */
+  /* font-size: 44.78976px; */
+  /* ms: "ms(6)" */
+  /* font-size: 47.12461px; */
+  /* ms: "ms(7)" */
+  /* font-size: 53.74771px; */
+  /* ms: "ms(8)" */
+  /* font-size: 64.49725px; */
+  /* ms: "ms(9)" */
+  /* font-size: 76.24923px; */
+  /* ms: "ms(10)" */
+}
+
+/*# sourceMappingURL=styles.css.map */

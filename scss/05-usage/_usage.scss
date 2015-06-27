@@ -1,0 +1,23 @@
+.colors {
+  @include try-colors();
+}
+
+.borders {
+  @include try-borders();
+}
+
+.fonts {
+  @include try-fonts();
+}
+
+.font-weights {
+  @include try-font-weights();
+}
+
+.font-sizes {
+  @include try-ms()
+}
+
+.all {
+  @include try-all();
+}

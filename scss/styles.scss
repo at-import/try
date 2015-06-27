@@ -1,0 +1,19 @@
+//
+// Here's where the magic happens.
+// All styles that are imported here will be compiled into css/style.css
+//
+// scss-lint:disable Indentation
+@import
+// gems
+'compass',
+'modular-scale',
+// Global Settings
+'00-global/01-functions/**/*',
+'00-global/02-variables/**/*',
+'00-global/03-mixins/**/*',
+'00-global/04-extends/**/*',
+// fonts
+'01-assets/**/*',
+// Global Styles
+//  Components
+'05-usage/**/*';

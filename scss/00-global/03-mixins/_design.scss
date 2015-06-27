@@ -1,0 +1,57 @@
+%baseline {
+  $base-line-half: $base-line-px / 2;
+  $c--gray--light: lightgray;
+  $c--gray--lighter: lighten(lightgray, 20%);
+  @include background-image(repeating-linear-gradient(0deg, transparent, transparent $base-line-half - 1, $c--gray--light $base-line-half, transparent $base-line-half + 1, transparent $base-line-px - 1, $c--gray--lighter $base-line-px));
+  background-size: 100% $base-line-px;
+}
+
+@mixin debug($color: red) {
+  outline: 1px solid $color;
+}
+
+@mixin try-colors() {
+  @each $palette, $items in $palettes {
+    @each $name, $value in $items {
+      /* color: #{$value}; */
+      /* background-color: #{$value}; */
+    }
+  }
+}
+
+@mixin try-borders() {
+  @each $palette, $items in $palettes {
+    @each $name, $value in $items {
+      /* border: 1px solid #{$value}; */
+    }
+  }
+}
+
+@mixin try-fonts() {
+  @each $font-var, $font-val in $font-map {
+    /* font-family: #{$font-val}; */
+  }
+}
+
+@mixin try-font-weights() {
+  @each $font-weight in (200, 300, 400, 500, 600, 700, 800) {
+    /* font-weight: #{$font-weight}; */
+  }
+}
+
+
+@mixin try-ms($s: 0, $count: 10) {
+  @for $i from $s through $count {
+    $ms: ms($i);
+    /* font-size: #{$ms}; */
+    /* ms: "ms(#{$i})" */
+  }
+}
+
+@mixin try-all() {
+  @include try-colors();
+  @include try-borders();
+  @include try-fonts();
+  @include try-font-weights();
+  @include try-ms();
+}
